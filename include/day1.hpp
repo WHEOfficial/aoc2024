@@ -4,8 +4,10 @@
 #include "common.hpp"
 #include "day.hpp"
 
-#include <bits/stdc++.h>
 #include <sstream>
+#include <set>
+#include <map>
+#include <bits/ranges_algo.h>
 
 class Day1 final : public IDay<int, int> {
   std::vector<int> list1;

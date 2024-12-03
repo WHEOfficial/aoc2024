@@ -1,15 +1,15 @@
 #include <iostream>
+#include <chrono>
 
-#include "day1.hpp"
-#include "day2.hpp"
+#include "day3.hpp"
 
 namespace sc = std::chrono;
 
 int main() {
-  const auto inputFile = "../input/day2.txt";
+  const auto inputFile = "../input/day3.txt";
   const auto start = sc::high_resolution_clock::now();
 
-  Day2 day(inputFile);
+  Day3 day(inputFile);
 
   const auto initTime = sc::high_resolution_clock::now();
 
